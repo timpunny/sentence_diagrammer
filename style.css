@@ -1,0 +1,98 @@
+body {
+	font-family: helvetica;
+	font-size: 20px;
+	background-color: #edd2d1;
+    margin: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size:30px;
+}
+
+h2 {
+	font-size:25px;
+	margin-top:20px;
+	margin-bottom:0px;
+	font-weight:normal;
+	text-indent:20px;
+	text-decoration:underline;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+p {
+	font-size: 20px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	color: #222222;
+}
+
+ul {
+	font-size: 20px;
+}
+
+div {
+	min-width:10px;
+	min-height:10px;
+	overflow:hidden;
+}
+
+.test {
+	background-color: red;
+	font-family: "Comic Sans MS";
+}
+
+.maindiv {
+	border: 1px solid black;
+	width: 62%;
+	min-height:600px;
+	margin: auto;
+}
+
+.header {
+	width:100%;
+	min-height:50px;
+	text-align:center;
+}
+
+.bodywrapper {
+	min-height:500px;
+}
+
+.sidebar {
+	width:15%;
+	float:left;
+	min-height:500px;
+	background-color:#d6bbba;
+	text-align:center;
+}
+
+.realbody {
+	width:84%;
+	min-height:500px;
+	background-color:#f0dbda;
+	float:right;
+}
+
+.footer {
+	min-height:50px;
+	text-align:center;
+	font-family: "Times New Roman";
+	font-size:15px;
+}
+
+.rounded {
+	box-sizing:border-box;
+	border-radius:10px;
+	padding: 7px 7px 7px 7px;
+}
+
+.sentenceDiagramApplet {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    background-color: #151515;
+}
